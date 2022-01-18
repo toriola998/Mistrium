@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.flex-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    padding: 1.5rem;
+} 
+
+#hamburger {
+    height: 3rem;
+}
+
+.logo {
+    height: 2rem;
+}
