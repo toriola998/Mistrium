@@ -40,7 +40,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #FFF4E8;
+    background-color: #fbfbfb;
   }
   
   #close-icon {
@@ -55,18 +55,27 @@ header {
     height: 0;
     position: relative;
   }
+
+  ul{
+    list-style-type: none;
+  }
   
   li {
-    list-style-type: none;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.8rem;
+   
   }
   
   li > a {
     color: #000;
     font-size: 15px;
-    font-family: var(--mainfont);
+    text-decoration: none;
   }
 
-  li> a:hover {
-      border-bottom: 2px solid var(--colorMix);
+  li a:hover {
+     transform: scale(1.1);
+     border-bottom: 2px solid black;
+  }
+
+  .cart-info {
+      margin-top: 4rem;
   }
