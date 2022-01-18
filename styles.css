@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+:root {
+    --brown: #C4A586;
+}
+
 .flex {
     display: flex;
     align-items: center;
@@ -36,15 +40,14 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba( 244, 234, 229, 0.5 );
-    backdrop-filter: blur( 20px );
-    -webkit-backdrop-filter: blur( 20px );
+    background-color: #FFF4E8;
   }
   
   #close-icon {
       position: absolute;
       top: 1rem;
       right: 1rem;
+      height: 2rem;
   }
 
   nav {
