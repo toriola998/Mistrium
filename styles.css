@@ -25,3 +25,45 @@ header {
 .logo {
     height: 2rem;
 }
+
+.show-links {
+    position: fixed;
+    z-index: 9999;
+    height: 100%;
+    width: 60vw;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba( 244, 234, 229, 0.5 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+  }
+  
+  #close-icon {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+  }
+
+  nav {
+    overflow: hidden;
+    height: 0;
+    position: relative;
+  }
+  
+  li {
+    list-style-type: none;
+    padding-bottom: 0.5rem;
+  }
+  
+  li > a {
+    color: #000;
+    font-size: 15px;
+    font-family: var(--mainfont);
+  }
+
+  li> a:hover {
+      border-bottom: 2px solid var(--colorMix);
+  }
