@@ -96,10 +96,12 @@ header {
       margin-top: 4rem;
   }
 
-  h1 {
-    font-family: "Geomanist Bold"; 
-    font-weight: bold;
-    font-size: 5rem;
-    line-height: 0.9;
-    
+  .flex-tab {
+      margin-top: 2rem;
   }
+
+  h1 {
+    font-family: var(--boldFont); 
+    font-size: 3rem;
+    line-height: 0.9;
+  } 
