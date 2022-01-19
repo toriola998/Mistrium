@@ -85,6 +85,8 @@ header {
     color: #000;
     font-size: 15px;
     text-decoration: none;
+    font-family: var(--regularFonts);
+    font-weight: bold;
   }
 
   li a:hover {
@@ -97,7 +99,7 @@ header {
   }
 
   .flex-tab {
-      margin-top: 2rem;
+      margin-top: 4rem;
   }
 
   h1 {
@@ -105,3 +107,39 @@ header {
     font-size: 3rem;
     line-height: 0.9;
   } 
+
+  .hero {
+      width: 100%;
+      height: 100%;
+  }
+
+  header p {
+      font-family: var(--regularFonts);
+      font-size: 15px;
+      padding: 1rem 0;
+      color: #72696A;
+  }
+
+  .btn {
+      padding: 1.3rem;
+      width: 10rem;
+      border: none;
+      outline: none;
+      font-family: var(--regularFonts);
+  }
+
+  .btn:hover {
+    transform: scale(1.1);
+  }
+
+  .plain-btn{
+    color:var(--brown);
+    border: 1px solid var(--brown);
+    background-color: inherit;
+  }
+
+  .colored-btn{
+    background-color:var(--brown);
+    color: #fff;
+    border: 1px solid var(--brown);
+  }
