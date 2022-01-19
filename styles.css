@@ -202,9 +202,9 @@ header {
     background-color:#FFF4E8;
     padding: 0 1.5rem;
     width: 80%;
-    margin: auto;
+    margin: 0 auto 8rem;
     position: relative;
-    min-height: 270px;
+    min-height: 280px;
     border-radius: 5px;
 }
 
@@ -250,6 +250,6 @@ header {
 .product-image {
     width: 70%;
     position: absolute;
-    top: 8rem;
+    top: 9rem;
     margin: 0 auto 0;
 } 
