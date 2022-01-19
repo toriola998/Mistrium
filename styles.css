@@ -53,6 +53,7 @@ header {
     width: 60vw;
     top: 0;
     right: 0;
+    bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -146,4 +147,22 @@ header {
     background-color:var(--brown);
     color: #fff;
     border: 1px solid var(--brown);
+  }
+
+  #clients {
+      padding: 1.5rem;
+  }
+
+  #clients p {
+      text-align: center;
+      font-family: var(--boldFont);
+      margin-bottom: 2rem;
+  }
+
+  #clients div {
+      flex-wrap: wrap;
+  }
+
+  #clients div img {
+    padding: .3rem 1rem;      
   }
