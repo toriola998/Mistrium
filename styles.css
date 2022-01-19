@@ -197,3 +197,43 @@ header {
     font-weight: 600;
     font-size: 15px;
 }
+
+.product-brown-bg {
+    background-color:#FFF4E8;
+    padding: 0 1.5rem;
+    width: 80%;
+    margin: auto;
+}
+
+.cart {
+    border-radius: 25px;
+    background-color: #D9AB82;
+    width: 8rem;
+    padding: .5rem 1rem ;
+    margin: -5px auto 0;
+    justify-content: space-between;
+}
+
+.cart p {
+    color: #fff;
+    font-family: var(--regularFonts);
+    font-size: 14px;
+}
+
+.product-brown-bg h2 {
+    font-family: var(--boldFont);
+    font-size: 1.3rem;   
+}
+
+.prices p{
+    font-family: var(--boldFont);
+}
+
+.new-price {
+    font-size: 1.1rem;
+    margin-right: 3rem;
+}
+
+.old-price {
+    color: #a9a7a6
+}
