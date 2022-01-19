@@ -22,6 +22,8 @@
     --brown: #C4A586;
     --boldFont: 'Lato', sans-serif; 
     --regularFonts: 'geomanistregular';
+    --thinBrown: #FCEFE9;
+    --lightBrown: #fae2c8;
 }
 
 .flex {
@@ -150,7 +152,7 @@ header {
   }
 
   #clients {
-      padding: 1.5rem;
+      padding: 3rem 1.5rem;
   }
 
   #clients p {
@@ -166,3 +168,32 @@ header {
   #clients div img {
     padding: .3rem 1rem;      
   }
+
+  .brown {
+      padding: 2rem 0;
+  }
+
+  .brown img {
+      width: 50%;
+  }
+
+  .brown1 {
+      background-color: var(--thinBrown);
+      justify-content: space-around;
+  }
+
+  .brown2 {
+    background-color: var(--lightBrown);
+    justify-content: space-around;
+}
+
+.brown h2 {
+    font-family: var(--boldFont);
+    margin-bottom: 3rem;
+}
+
+.brown p {
+    font-family: var(--regularFonts);
+    font-weight: 600;
+    font-size: 15px;
+}
