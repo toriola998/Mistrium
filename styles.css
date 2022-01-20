@@ -321,6 +321,7 @@ footer h2 {
     background-color: #F5F5F5;
     height: 4rem;
     justify-content: space-evenly;
+    margin-bottom: 1rem;
 }
 
 .btn-wrap {
@@ -353,3 +354,21 @@ footer button {
     margin-right: 4px;
 }
 
+.watch {
+    font-family: var(--regularFonts);
+    font-size: 14px;
+}
+
+.foot-furniture {
+    width: 60%;
+    margin: 1rem 0;
+}
+
+footer li {
+    padding: 1.5rem 1rem 1.5rem 0;
+}
+
+.social-media-icons img {
+    height: 1rem;
+    margin-right: 1rem;
+}
