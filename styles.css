@@ -266,7 +266,7 @@ header {
 .big-man {
     width: 100%;
     display: block;
-    margin: auto;
+    margin: 3rem auto 0;
 }
 
 .person-wrap{
@@ -284,10 +284,26 @@ header {
 
 .customers p {
     font-family: var(--regularFonts);
+}
+
+.customers-note {
     margin: 2rem 0;
     font-size: 15px;
     line-height: 1.5;
 }
+
+.mike {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.rating {
+    margin: .7rem 0 2.5rem;
+}
+
+.mr {
+    margin-right: 1rem;
+} 
 
 footer {
     background-color: #fff;
