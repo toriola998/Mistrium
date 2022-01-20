@@ -163,7 +163,7 @@ header {
   }
 
   #clients {
-      padding: 3rem 1.5rem;
+      padding: 5rem 1.5rem;
   }
 
   #clients p {
@@ -206,6 +206,27 @@ header {
     font-family: var(--regularFonts);
     font-weight: 600;
     font-size: 15px;
+}
+
+.products-nav {
+    margin: 5rem 0 3rem;
+    padding: 0 1.5rem;
+}
+
+.products-nav h2 {
+    text-align: left;
+    font-size: 2.3rem;
+}
+
+.products-nav ul {
+    justify-content: center;
+    margin-top: 2.7rem;
+}
+
+.products-nav ul li {
+    font-family: var(--regularFonts);
+    color: #a9a7a6;
+    padding-right: 1rem;
 }
 
 .product-brown-bg {
