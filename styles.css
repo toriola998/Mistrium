@@ -30,6 +30,11 @@ body {
     background-color: #fbfbfb;
 }
 
+h1,
+h2 {
+    font-family: var(--boldFont) ;
+}
+
 .flex {
     display: flex;
     align-items: center;
@@ -110,7 +115,6 @@ header {
   }
 
   h1 {
-    font-family: var(--boldFont); 
     font-size: 3rem;
     line-height: 0.9;
   } 
@@ -192,7 +196,6 @@ header {
 }
 
 .brown h2 {
-    font-family: var(--boldFont);
     margin-bottom: 3rem;
 }
 
@@ -230,7 +233,6 @@ header {
 }
 
 .product-brown-bg h2 {
-    font-family: var(--boldFont);
     font-size: 1.3rem;   
 }
 
@@ -273,7 +275,6 @@ header {
 }
 
 .customers h2 {
-    font-family: var(--boldFont);
     font-size: 2.7rem;
     line-height: 0.9;
 }
@@ -283,4 +284,32 @@ header {
     margin: 2rem 0;
     font-size: 15px;
     line-height: 1.5;
+}
+
+footer {
+    background-color: #fff;
+    margin-top: 4rem;
+}
+
+footer > div {
+    padding: 4rem 2rem;
+}
+
+.mistrium {
+    border: 1px solid #FE8432;
+    border-radius: 25px;
+    padding: .6rem  1rem;
+    width: 9rem;
+}
+
+.mistrium p {
+    color: #FE8432;
+    font-size: 14px;
+    text-align: center;
+    font-family: var(--regularFonts);
+}
+
+footer h2 {
+    font-size: 2rem;
+    margin-top: 2rem;
 }
