@@ -26,6 +26,10 @@
     --lightBrown: #fae2c8;
 }
 
+body {
+    background-color: #fbfbfb;
+}
+
 .flex {
     display: flex;
     align-items: center;
@@ -253,3 +257,30 @@ header {
     top: 9rem;
     margin: 0 auto 0;
 } 
+
+.big-man {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.person-wrap{
+    display: none;
+}
+
+.customers {
+    padding: 0 1.5rem;
+}
+
+.customers h2 {
+    font-family: var(--boldFont);
+    font-size: 2.7rem;
+    line-height: 0.9;
+}
+
+.customers p {
+    font-family: var(--regularFonts);
+    margin: 2rem 0;
+    font-size: 15px;
+    line-height: 1.5;
+}
