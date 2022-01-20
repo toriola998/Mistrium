@@ -134,12 +134,15 @@ header {
       color: #72696A;
   }
 
+  button {
+    border: none;
+    outline: none;
+    font-family: var(--regularFonts);
+  }
+
   .btn {
       padding: 1.3rem;
       width: 10rem;
-      border: none;
-      outline: none;
-      font-family: var(--regularFonts);
       transition: transform 0.5s;
   }
 
@@ -311,5 +314,42 @@ footer > div {
 
 footer h2 {
     font-size: 2rem;
-    margin-top: 2rem;
+    margin: 2rem 0;
 }
+
+.input-wrap {
+    background-color: #F5F5F5;
+    height: 4rem;
+    justify-content: space-evenly;
+}
+
+.btn-wrap {
+    background-color: #D9AB82;
+    border-radius: 7px;
+    width: 8rem;
+}
+
+input {
+    background-color: inherit;
+    outline: none;
+    border: none;
+}
+
+footer button {
+    background-color: #D9AB82;
+    color: #fff;
+    height: 3rem;
+    padding: 0 1rem;
+    font-size: 13px;
+    border-radius: 7px;
+}
+
+.submit-img {
+    background-color: #FAE2C8;
+    height: 2.6rem;
+    width: 3rem;
+    border-radius: 7px;
+    justify-content: center;
+    margin-right: 4px;
+}
+
