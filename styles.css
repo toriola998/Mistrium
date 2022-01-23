@@ -282,7 +282,7 @@ header {
 }
 
 .product-image {
-    width: 70%;
+    width: 200px;
     position: absolute;
     top: 9rem;
     margin: 0 auto 0;
@@ -406,4 +406,37 @@ footer li {
 .social-media-icons img {
     height: 1rem;
     margin-right: 1rem;
+}
+
+@media screen and (min-width: 550px) {
+    header {
+        padding: 1.5rem 2.5rem;
+    }
+
+    .product-brown-bg {
+        width: 60%;
+        padding: 0 3rem;
+    }   
+    
+    .customers,
+    .products-nav {
+        padding: 0 2.5rem;
+    }
+
+    .big-man {
+        width: 80%;
+    }
+
+    footer > div {
+        padding: 4rem;
+    }
+
+    .input-wrap {
+        justify-content: space-between;
+        padding: 0 .5rem 0 1.5rem;
+    }
+
+    .btn-wrap {
+        width: unset;
+    }
 }
