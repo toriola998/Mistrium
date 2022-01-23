@@ -33,7 +33,8 @@ body {
 h1,
 h2,
 .prices p,
-#clients p {
+#clients p,
+li > a {
     font-family: var(--boldFont) ;
 }
 
@@ -44,8 +45,7 @@ li > a,
 .cart p,
 .customers p,
 .mistrium p,
-.watch 
-li > a, 
+.watch  
 .products-nav ul li {
     font-family: var(--regularFonts);
 }
@@ -103,14 +103,15 @@ header {
     list-style-type: none;
   }
   
- li > a {
+.nav-items li > a {
     color: #000;
     font-size: 15px;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 600;
+    padding-bottom: .7rem;
   }
 
-  li a:hover {
+.nav-items li a:hover {
      transform: scale(1.1);
      border-bottom: 2px solid black;
   }
@@ -517,6 +518,38 @@ footer li {
 }
 
 @media screen and (min-width: 1000px) {
+    #hamburger,
+    #close-icon {
+        display: none;
+    }
+
+    nav {
+        overflow: visible;
+        height: 0;
+    }
+
+    nav > div {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: space-between;
+        width: 73%;
+    }
+
+    .nav-items {
+        display: flex;
+    }
+
+    .nav-items li a{
+        margin-right: 2rem;
+        font-size: 17px;
+    }
+
+    .cart-info {
+        margin-top: unset;
+    }
+
     .content {
         display: flex;
         align-items: center;
