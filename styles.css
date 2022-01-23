@@ -172,6 +172,7 @@ header {
     background-color:var(--brown);
     color: #fff;
     border: 1px solid var(--brown);
+    margin-right: .18rem;
   }
 
   #clients {
@@ -390,6 +391,10 @@ footer button {
     margin-right: 4px;
 }
 
+footer ul {
+    margin: 1.5rem 0;
+}
+
 .watch {
     font-size: 14px;
 }
@@ -400,7 +405,7 @@ footer button {
 }
 
 footer li {
-    padding: 1.5rem 1rem 1.5rem 0;
+    padding-right:1rem;
 }
 
 .social-media-icons img {
@@ -411,6 +416,10 @@ footer li {
 @media screen and (min-width: 550px) {
     header {
         padding: 1.5rem 2.5rem;
+    }
+
+    .colored-btn {
+        margin-right: 1rem;
     }
 
     .product-brown-bg {
@@ -438,5 +447,52 @@ footer li {
 
     .btn-wrap {
         width: unset;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    header {
+        padding: 1.5rem 5rem;
+    }
+
+    .brown h2 {
+        font-size: 2rem;
+    }
+
+    .brown p {
+        font-size: 18px;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 300px 300px;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .product-brown-bg {
+        padding: 0 1.5rem;
+        width: unset;
+        margin: 0 0 8rem 0;
+    }
+
+    .customers {
+        padding: 0 5rem;
+    }
+
+    footer>div {
+        padding: 5rem;
+    }
+
+    footer h2 {
+        font-size: 2.5rem;
+    }
+
+    .input-wrap {
+        width: 25rem;
+    }
+
+    .foot-furniture {
+        width: 40%;
     }
 }
