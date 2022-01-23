@@ -110,7 +110,7 @@ header {
     font-weight: 600;
   }
 
-  .nav-items li a {
+  .nav-items li{
     padding-bottom: .7rem;
   }
 
