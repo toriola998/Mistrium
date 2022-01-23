@@ -48,8 +48,7 @@ li > a,
 li > a, 
 .products-nav ul li {
     font-family: var(--regularFonts);
-  }
-
+}
 
 .flex {
     display: flex;
@@ -102,10 +101,6 @@ header {
 
   ul{
     list-style-type: none;
-  }
-  
-  li {
-    padding-bottom: 0.8rem;
   }
   
  li > a {
@@ -494,5 +489,21 @@ footer li {
 
     .foot-furniture {
         width: 40%;
+    }
+}
+
+@media screen and (min-width: 760px) {
+    .flex-nav,
+    .input-person {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .input-wrap {
+        margin-bottom: unset;
+    }
+
+    footer ul {
+        margin: unset;
     }
 }
