@@ -140,6 +140,7 @@ header {
   .notes p {
       font-size: 15px;
       color: #72696A;
+      line-height: 1.6;
   }
 
   button {
@@ -458,6 +459,9 @@ footer li {
         font-size: 18px;
     }
 
+    button {
+        font-size: 15px;
+    } 
     .container {
         display: grid;
         grid-template-columns: 300px 300px;
@@ -531,6 +535,10 @@ footer li {
         width:450px;
     }
 
+    .notes p {
+        font-size: 17px;
+    }
+
     #clients div {
         justify-content: center;
     }
@@ -565,6 +573,17 @@ footer li {
         display: flex;
         align-items: center;
         flex-direction: row-reverse;
+        justify-content: center;
+        margin: 3rem 0;
+    }
+
+    .big-man {
+        width: 40%;
+        margin: 0 5rem 0 0;
+    }
+
+    .customers > div >div {
+        width: 40%;
     }
 
     .flex-foot > div {
@@ -582,10 +601,52 @@ footer li {
     .foot-furniture {
         width: 30%;
     }
+}
 
-    /*.flex-foot {
+@media screen and (min-width: 1220px) {
+    .hero {
+        width: 55%;
+    }
+
+    h1 {
+        font-size: 3.3rem;
+    }
+
+    .customers h2 {
+        font-size: 3rem;
+    }
+
+    .notes {
+        width: 480px;
+    }
+
+    .container {
+        grid-template-columns: 300px 300px 300px;
+    }
+
+    .customers > div > div {
+        width: 37%;
+    }
+    
+    .flex-foot {
         display: flex;
         justify-content: space-between;
         align-items: center;
-    }*/
+    }
+
+    footer>div {
+        padding: 5rem 7rem;
+    }
+
+    .flex-foot > div {
+        width: 55%;
+    }
+
+    .foot-furniture {
+        width: 20%;
+    }
+
+    .flex-foot {
+        margin-bottom: 7rem;
+    }
 }
