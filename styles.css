@@ -451,7 +451,7 @@ footer li {
     }
 
     .brown h2 {
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
 
     .brown p {
@@ -505,5 +505,50 @@ footer li {
 
     footer ul {
         margin: unset;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    header {
+        padding: 2rem 1.5rem;
+    }
+
+    .hero {
+        width: 50%;
+    }
+
+    .notes {
+        width:450px;
+    }
+
+    #clients div {
+        justify-content: center;
+    }
+
+    .brown-wrap >div {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .brown {
+        padding: 4rem;
+        justify-content: space-between;
+    }
+
+    .products-nav{
+        padding: 0 6rem;
+    }
+
+    .container {
+        gap: 40px;
+    }
+    .products-nav ul {
+        margin-bottom: 4rem;
     }
 }
