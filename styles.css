@@ -650,3 +650,16 @@ footer li {
         margin-bottom: 7rem;
     }
 }
+
+@media screen and (min-width: 1400px) {
+    header,
+    section,
+    footer>div {
+        max-width: 1320px;
+        margin: auto;
+    }
+
+    .products-nav {
+        margin: 5rem auto 3rem;
+    }
+}
