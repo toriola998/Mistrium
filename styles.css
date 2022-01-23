@@ -548,7 +548,40 @@ footer li {
     .container {
         gap: 40px;
     }
+
     .products-nav ul {
         margin-bottom: 4rem;
     }
+
+    .customers {
+        padding: 0 1.5rem;
+    }
+
+    .customers > div {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+
+    .flex-foot > div {
+        width: 70%;
+    }
+
+    footer h2 {
+        font-size: 3rem;
+    }
+
+    .input-person {
+        margin: 2rem 0;
+    }
+
+    .foot-furniture {
+        width: 30%;
+    }
+
+    /*.flex-foot {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }*/
 }
