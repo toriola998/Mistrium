@@ -496,11 +496,15 @@ footer li {
     .flex-nav,
     .input-person {
         display: flex;
+    }
+
+    .flex-nav {
         justify-content: space-between;
     }
 
     .input-wrap {
         margin-bottom: unset;
+        margin-right: 3rem;
     }
 
     footer ul {
