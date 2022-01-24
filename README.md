@@ -1,4 +1,4 @@
-## Mistrium Furniture Landing Page
+# Mistrium Furniture Landing Page
 This is a landing page website for a modern furniture store. 
 
 ## Pages
