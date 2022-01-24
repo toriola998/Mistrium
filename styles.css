@@ -539,17 +539,19 @@ footer li {
         height: 0;
     }
 
+    nav > div,
+    .nav-items,
+    .content,
+    .customers > div  {
+        display: flex;
+    }
+
     nav > div {
         position: absolute;
         right: 0;
         bottom: 0;
-        display: flex;
         justify-content: space-between;
         width: 73%;
-    }
-
-    .nav-items {
-        display: flex;
     }
 
     .nav-items li a{
@@ -562,7 +564,6 @@ footer li {
     }
 
     .content {
-        display: flex;
         align-items: center;
         justify-content: space-between;
     }
@@ -614,7 +615,6 @@ footer li {
     }
 
     .customers > div {
-        display: flex;
         align-items: center;
         flex-direction: row-reverse;
         justify-content: center;
