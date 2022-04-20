@@ -8,13 +8,13 @@
         <link rel="stylesheet" href="styles.css"/>
     </head>
     <body>
-        <header>
+        <header role="banner">
             <div class="flex-top flex">
                 <img src="./assets/header-assets/Logo.svg" alt="logo" class="logo"/>
                 <img src="./assets/header-assets/hamburger.svg" alt="hamburger-menu" id="hamburger"/>
             </div>
 
-            <nav>
+            <nav >
                 <div>
                     <img src="./assets/header-assets/close-icon.svg" alt="close-icon" id="close-icon" />
                     <ul class="nav-items">
@@ -51,158 +51,159 @@
             </div>
         </header>
 
-        <section id="clients">
-            <p id="trusted">SOME OF OUR TRUSTED CLIENTS</p>
-            <div class="flex">
-                <img src="./assets/clients/stripe.svg" alt="stripe"/>
-                <img src="./assets/clients/Google.svg" alt="Google"/>
-                <img src="./assets/clients/deloitte.svg" alt="Deloitte"/>
-                <img src="./assets/clients/accenture.svg" alt="accenture"/>
-                <img src="./assets/clients/IBM.svg" alt="IBM"/>
-                <img src="./assets/clients/samsung.svg" alt="samsung"/>
-            </div>
-        </section>
-
-        <section class="brown-wrap">
-            <div>
-                <div class="brown brown1 flex">
-                    <div>
-                        <h2>Residential<br>
-                            Furniture</h2>
-                        <p>Browse Collection</p>
-                    </div> 
-                    <img src="./assets/stool11.png" alt="furniture"/>
+        <main role="main">
+            <section id="clients" aria-labelledby="our-trusted-clients">
+                <h2 id="our-trusted-clients">SOME OF OUR TRUSTED CLIENTS</h2>
+                <div class="flex">
+                    <img src="./assets/clients/stripe.svg" alt="stripe"/>
+                    <img src="./assets/clients/Google.svg" alt="Google"/>
+                    <img src="./assets/clients/deloitte.svg" alt="Deloitte"/>
+                    <img src="./assets/clients/accenture.svg" alt="accenture"/>
+                    <img src="./assets/clients/IBM.svg" alt="IBM"/>
+                    <img src="./assets/clients/samsung.svg" alt="samsung"/>
                 </div>
+            </section>
     
-                <div class="brown brown2 flex">
-                    <div>
-                        <h2>Hospital<br>
-                            Furniture</h2>
-                        <p>Browse Collection</p>
+            <section class="brown-wrap" aria-label="our collections">
+                <div>
+                    <div class="brown brown1 flex">
+                        <div>
+                            <h2>Residential<br>
+                                Furniture</h2>
+                            <p>Browse Collection</p>
+                        </div> 
+                        <img src="./assets/stool11.png" alt="furniture"/>
                     </div>
-                    <img src="./assets/stool22.png" alt="furniture"/>
+        
+                    <div class="brown brown2 flex">
+                        <div>
+                            <h2>Hospital<br>
+                                Furniture</h2>
+                            <p>Browse Collection</p>
+                        </div>
+                        <img src="./assets/stool22.png" alt="furniture"/>
+                    </div>
                 </div>
-            </div>
-        </section>
-
-        <section class="products-nav">
-            <h2 >PRODUCTS</h2>
-            <ul class="flex">
-                <li>All</li>
-                <li>Bed</li>
-                <li>Sofa</li>
-                <li style="color: #000; font-weight: 600;">Chair</li>
-                <li>Light</li>
-            </ul>
-        </section>
-
-        <section>
-            <div class="container">
-                <div class="product-brown-bg">
-                    <div class="cart flex">
-                        <p>Add to cart</p>
-                        <img src="./assets/products/basket.svg" alt="cart-basket"/>
+            </section>
+    
+            <section class="products-nav" aria-labelledby="products">
+                <h2 id="products">PRODUCTS</h2>
+                <ul class="flex">
+                    <li>All</li>
+                    <li>Bed</li>
+                    <li>Sofa</li>
+                    <li style="color: #000; font-weight: 600;">Chair</li>
+                    <li>Light</li>
+                </ul>
+    
+                <div class="container">
+                    <div class="product-brown-bg">
+                        <div class="cart flex">
+                            <p>Add to cart</p>
+                            <img src="./assets/products/basket.svg" alt="cart-basket"/>
+                        </div>
+                        <h3>Ramen Stool</h3>
+                        <div class="flex prices">
+                            <p class="new-price">$65</p>
+                            <p class="old-price">$95</p>
+                        </div>
+                        <img src="./assets/products/product1.png" alt="ramen-stool" class="product-image"/>
                     </div>
-                    <h2>Ramen Stool</h2>
-                    <div class="flex prices">
-                        <p class="new-price">$65</p>
-                        <p class="old-price">$95</p>
+    
+                    <div class="product-brown-bg">
+                        <div class="cart flex">
+                            <p>Add to cart</p>
+                            <img src="./assets/products/basket.svg" alt="cart-basket"/>
+                        </div>
+                        <h3>Flexform</h3>
+                        <div class="flex prices">
+                            <p class="new-price">$35</p>
+                            <p class="old-price">$55</p>
+                        </div>
+                        <img src="./assets/products/product2.png" alt="ramen-stool" class="product-image"/>
                     </div>
-                    <img src="./assets/products/product1.png" alt="ramen-stool" class="product-image"/>
+    
+                    <div class="product-brown-bg">
+                        <div class="cart flex">
+                            <p>Add to cart</p>
+                            <img src="./assets/products/basket.svg" alt="cart-basket"/>
+                        </div>
+                        <h3>Porada</h3>
+                        <div class="flex prices">
+                            <p class="new-price">$87</p>
+                            <p class="old-price">$97</p>
+                        </div>
+                        <img src="./assets/products/product3.png" alt="ramen-stool" class="product-image"/>
+                    </div>
+    
+                    <div class="product-brown-bg">
+                        <div class="cart flex">
+                            <p>Add to cart</p>
+                            <img src="./assets/products/basket.svg" alt="cart-basket"/>
+                        </div>
+                        <h3>Taknion</h3>
+                        <div class="flex prices">
+                            <p class="new-price">$45</p>
+                            <p class="old-price">$55</p>
+                        </div>
+                        <img src="./assets/products/product4.png" alt="ramen-stool" class="product-image"/>
+                    </div>
+    
+                    <div class="product-brown-bg">
+                        <div class="cart flex">
+                            <p>Add to cart</p>
+                            <img src="./assets/products/basket.svg" alt="cart-basket"/>
+                        </div>
+                        <h3>Amora</h3>
+                        <div class="flex prices">
+                            <p class="new-price">$65</p>
+                            <p class="old-price">$95</p>
+                        </div>
+                        <img src="./assets/products/product5.png" alt="ramen-stool" class="product-image"/>
+                    </div>
+    
+                    <div class="product-brown-bg">
+                        <div class="cart flex">
+                            <p>Add to cart</p>
+                            <img src="./assets/products/basket.svg" alt="cart-basket"/>
+                        </div>
+                        <h3>Liquid Contract</h3>
+                        <div class="flex prices">
+                            <p class="new-price">$35</p>
+                            <p class="old-price">$45</p>
+                        </div>
+                        <img src="./assets/products/product6.png" alt="ramen-stool" class="product-image"/>
+                    </div>
                 </div>
-
-                <div class="product-brown-bg">
-                    <div class="cart flex">
-                        <p>Add to cart</p>
-                        <img src="./assets/products/basket.svg" alt="cart-basket"/>
-                    </div>
-                    <h2>Flexform</h2>
-                    <div class="flex prices">
-                        <p class="new-price">$35</p>
-                        <p class="old-price">$55</p>
-                    </div>
-                    <img src="./assets/products/product2.png" alt="ramen-stool" class="product-image"/>
-                </div>
-
-                <div class="product-brown-bg">
-                    <div class="cart flex">
-                        <p>Add to cart</p>
-                        <img src="./assets/products/basket.svg" alt="cart-basket"/>
-                    </div>
-                    <h2>Porada</h2>
-                    <div class="flex prices">
-                        <p class="new-price">$87</p>
-                        <p class="old-price">$97</p>
-                    </div>
-                    <img src="./assets/products/product3.png" alt="ramen-stool" class="product-image"/>
-                </div>
-
-                <div class="product-brown-bg">
-                    <div class="cart flex">
-                        <p>Add to cart</p>
-                        <img src="./assets/products/basket.svg" alt="cart-basket"/>
-                    </div>
-                    <h2>Taknion</h2>
-                    <div class="flex prices">
-                        <p class="new-price">$45</p>
-                        <p class="old-price">$55</p>
-                    </div>
-                    <img src="./assets/products/product4.png" alt="ramen-stool" class="product-image"/>
-                </div>
-
-                <div class="product-brown-bg">
-                    <div class="cart flex">
-                        <p>Add to cart</p>
-                        <img src="./assets/products/basket.svg" alt="cart-basket"/>
-                    </div>
-                    <h2>Amora</h2>
-                    <div class="flex prices">
-                        <p class="new-price">$65</p>
-                        <p class="old-price">$95</p>
-                    </div>
-                    <img src="./assets/products/product5.png" alt="ramen-stool" class="product-image"/>
-                </div>
-
-                <div class="product-brown-bg">
-                    <div class="cart flex">
-                        <p>Add to cart</p>
-                        <img src="./assets/products/basket.svg" alt="cart-basket"/>
-                    </div>
-                    <h2>Liquid Contract</h2>
-                    <div class="flex prices">
-                        <p class="new-price">$35</p>
-                        <p class="old-price">$45</p>
-                    </div>
-                    <img src="./assets/products/product6.png" alt="ramen-stool" class="product-image"/>
-                </div>
-        </section>
-
-        <section class="customers">
-            <div>
+            </section>
+    
+            <section class="customers" aria-labelledby="what-customers-are-saying">
                 <div>
                     <div>
-                        <h2>Let's see what our<br>
-                            customers say</h2>
-                        <p class="customers-note">Dwelling and speedily ignorant any steepest. Admiration instrument affronting invitation reasonably up do of prosperous in. Shy saw declared age debating ecstatic man. Call in so want pure rank am dear were. Remarkably to continuing in surrounded diminution on.</p>
-                    </div>
-                    <div>
-                        <p class="mike">Mike Taylor</p>
-                        <div class="flex rating">
-                            <p class="mr">20 January 2020</p>
-                            <img src="./assets/people/star rating.svg" alt="star rating"/>
+                        <div>
+                            <h2 id="what-customers-are-saying">Let's see what our<br>
+                                customers say</h2>
+                            <p class="customers-note">Dwelling and speedily ignorant any steepest. Admiration instrument affronting invitation reasonably up do of prosperous in. Shy saw declared age debating ecstatic man. Call in so want pure rank am dear were. Remarkably to continuing in surrounded diminution on.</p>
                         </div>
-                        
-                        <div class="flex nav">
-                            <img src="./assets/people/next.svg" alt="prev" class="mr"/>
-                            <img src="./assets/people/prev.svg" alt="next"/>
+                        <div>
+                            <p class="mike">Mike Taylor</p>
+                            <div class="flex rating">
+                                <p class="mr">20 January 2020</p>
+                                <img src="./assets/people/star rating.svg" alt="star rating"/>
+                            </div>
+                            
+                            <div class="flex nav">
+                                <img src="./assets/people/next.svg" alt="prev" class="mr"/>
+                                <img src="./assets/people/prev.svg" alt="next"/>
+                            </div>
                         </div>
                     </div>
+                    <img src="./assets/people/big-man.svg" alt="person" class="big-man">
                 </div>
-                <img src="./assets/people/big-man.svg" alt="person" class="big-man">
-            </div>
-        </section>
+            </section>
+        </main>
 
-        <footer>
+        <footer role="contentinfo">
             <div>
                 <div class="mistrium">
                     <p>Mistrium Interior</p>
